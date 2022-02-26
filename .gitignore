@@ -1,0 +1,43 @@
+﻿*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+SRP/Srp.Api/obj/Debug/netcoreapp3.0/Srp.Api.assets.cache
+SRP/Srp.Api/obj/project.assets.json
+/SRP/Online Database Backup
+/SRP/Srp.Api/Log/*
+/SRP/SRP/Controllers/OQC/AddEditTakenSample.cshtml
