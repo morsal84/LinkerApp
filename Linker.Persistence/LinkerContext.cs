@@ -11,13 +11,12 @@ namespace Linker.Persistence
 {
     public class LinkerContext : DbContext
     {
+        public virtual DbSet<Link> Links { get; set; }
+
         public LinkerContext(DbContextOptions<LinkerContext> options)
             : base(options)
         {
-
         }
-
-        public virtual DbSet<Link> Links { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
