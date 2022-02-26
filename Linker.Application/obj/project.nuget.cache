@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Xhz1QZGYq1cpQl6pA2+p6YTeAfiDMgCcjrpBFSans56uydKQg8kGw2lMLlvXVlDQS2VRGXkjErjn2hmgda8qFg==",
+  "dgSpecHash": "7mfdp+8FVh1WHH86b8+MRmQGSK7LJxkSdCGteuD1NMrp8UYhwW2DFrptd07X1GcdaL2SSYSEWZf3a00v05aPVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Application\\Linker.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

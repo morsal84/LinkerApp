@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eS+zsE5LyCJmKSPQx7+hOJ0EOc5sKx6V9z47xJq8EAUUD1ERiXhE/RoztbuSsIY53RmMGnQA5K8pCPJLaWXTjA==",
+  "dgSpecHash": "ZNeiZaGAPIvHcVMTmDjuQN+6hXKTZMV8PR/vqw1SoUu6buFsW4eSCxwZZ7iufYimXjG3bgGYks9g5dWSRmDkwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Persistence\\Linker.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
