@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Linker.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Linker.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Linker.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Linker.Application.dll": {}
+        }
+      },
+      "Linker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Linker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Linker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Linker.Application/1.0.0": {
+      "type": "project",
+      "path": "../Linker.Application/Linker.Application.csproj",
+      "msbuildProject": "../Linker.Application/Linker.Application.csproj"
+    },
+    "Linker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Linker.Domain/Linker.Domain.csproj",
+      "msbuildProject": "../Linker.Domain/Linker.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Linker.Application >= 1.0.0",
+      "Linker.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Persistence\\Linker.Persistence.csproj",
+      "projectName": "Linker.Persistence",
+      "projectPath": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Persistence\\Linker.Persistence.csproj",
+      "packagesPath": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Persistence\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Mousavi_m.SAMELECTRONIC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Application\\Linker.Application.csproj": {
+              "projectPath": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Application\\Linker.Application.csproj"
+            },
+            "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Domain\\Linker.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.Domain\\Linker.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
