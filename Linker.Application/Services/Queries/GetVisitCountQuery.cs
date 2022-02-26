@@ -24,7 +24,7 @@ namespace Linker.Application.Services.Queries
 
             public async Task<long> Handle(GetVisitCountQuery request, CancellationToken cancellationToken)
             {
-                var link = await _linkRepository.GetByShortLinkAsync(request.Abrevation);
+                var link = await _linkRepository.GetByAbrevationAsync(request.Abrevation);
                 return link.Visits;
             }
         }

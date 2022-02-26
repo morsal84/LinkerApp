@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/ilE9uQ9aLBFmJenEeH3vPqGTDhxpkwk/EzczR6lXiy62NR6oNrt69IEtPAPA2NhlQMe/Q1Uoe7dDEixjvqnSg==",
+  "dgSpecHash": "Oco0hsjFUkRXEQoKQsAQRrVJoT0XTWUanKQblz/Sx7K38CTDApaUOIfiLLTsygazmcvsiWFKvhMrJ4hmCkmofQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mousavi_m.SAMELECTRONIC\\source\\repos\\Linker\\Linker.WebApi\\Linker.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Mousavi_m.SAMELECTRONIC\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

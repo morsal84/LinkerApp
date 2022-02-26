@@ -29,17 +29,25 @@ namespace Linker.Application.Services.Queries
 
             public async Task<UrlDto> Handle(GetUrlQuery request, CancellationToken cancellationToken)
             {
-                var link = await _linkRepository.GetByShortLinkAsync(request.Abrevation);
+                try
+                {
+                    var link = await _linkRepository.GetByAbrevationAsync(request.Abrevation);
 
-                if (link == null)
-                    return null;
+                    if (link == null)
+                        return null;
 
-                link.Visits = link.Visits + 1;
+                    link.Visits = link.Visits + 1;
 
-                _linkWriteRepository.Update(link);
-                await _linkWriteRepository.SaveChangeAsync();
+                    _linkWriteRepository.Update(link);
+                    await _linkWriteRepository.SaveChangeAsync();
 
-                return new UrlDto { Url = link.Url };
+                    return new UrlDto { Url = link.Url };
+                }
+                catch (Exception e)
+                {
+                    throw;
+                }
+               
             }
         }
     }

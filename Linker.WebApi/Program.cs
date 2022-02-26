@@ -1,4 +1,11 @@
+using Linker.Application.Repositories;
+using Linker.Application.Repositories.Link;
+using Linker.Application.Services.Commands;
+using Linker.Application.Services.Queries;
 using Linker.Persistence;
+using Linker.Persistence.Repositories;
+using Linker.Persistence.Repositories.Link;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +17,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+builder.Services.AddMediatR(typeof(CreateAbrevationCommand));
+builder.Services.AddMediatR(typeof(GetUrlQuery));
+builder.Services.AddMediatR(typeof(GetVisitCountQuery));
+
+builder.Services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
+builder.Services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
+builder.Services.AddScoped<ILinkRepository, LinkRepository>();
 
 var connectionString = builder.Configuration.GetConnectionString("AppDb");
 builder.Services.AddDbContext<LinkerContext>(x => x.UseSqlServer(connectionString));

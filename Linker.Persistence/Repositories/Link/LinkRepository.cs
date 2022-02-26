@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Linker.Persistence.Repositories.Link
 {
-    public class LinkRepository : ReadRepository<Domain.Entities.Link>, ILinkRepository<Domain.Entities.Link>
+    public class LinkRepository : ReadRepository<Domain.Entities.Link>, ILinkRepository
     {
         private readonly LinkerContext _context;
 
@@ -17,7 +17,7 @@ namespace Linker.Persistence.Repositories.Link
             _context = context;
         }
 
-        public async Task<Domain.Entities.Link> GetByShortLinkAsync(string abrevation)
+        public async Task<Domain.Entities.Link> GetByAbrevationAsync(string abrevation)
         {
             return await _context.Links.FirstOrDefaultAsync(c => c.Abrevation == abrevation);
         }
